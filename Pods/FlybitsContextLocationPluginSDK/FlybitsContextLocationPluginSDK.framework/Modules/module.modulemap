@@ -1,0 +1,4 @@
+framework module FlybitsContextLocationPluginSDK {
+    header "FlybitsContextLocationPluginSDK-Swift.h"
+    requires objc
+}

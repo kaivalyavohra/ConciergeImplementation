@@ -1,0 +1,55 @@
+{
+    "id": "EA63011D-946B-43E9-B64A-EDBD249F6BEF",
+    "tenantId": "7DE8F413-95FC-4FF9-B1C9-D51ACB4ECDEC",
+    "templateId": "BF7E650F-BB97-4EC9-991F-C0E44B397E15",
+    "localizations": {
+        "en": {
+            "description": "With Learn More and it's already accepted",
+            "name": "Reward-Confirmation"
+        }
+    },
+    "iconUrl": "",
+    "links": [],
+    "createdAt": 1546625570,
+    "modifiedAt": 1546629515,
+    "content": {
+        "data": [
+            {
+                "_id": "454CD3C8-A45A-4EA6-AB2F-B13B8F834CF9",
+                "backgroundImage": "https://storage.googleapis.com/file-manager/F1DFABE2-4888-479D-AB4C-52D79088EFD3.png",
+                "gradientRange": [
+                    "#c74d4d",
+                    "#582e2e"
+                ],
+                "gradientRange.pagination": {
+                    "totalRecords": 2,
+                    "limit": 10,
+                    "offset": 0
+                },
+                "icon": "https://storage.googleapis.com/file-manager/F0F6E66D-A71C-4D3E-B8B8-F4AE287C7C2A.jpeg",
+                "localizations": {
+                    "en": {
+                        "explanation": "Hire Goons get points",
+                        "header": "Yo, Gots some new Stuff",
+                        "title": "3x Points on Hired Goons"
+                    }
+                },
+                "rewardStatus": "Auto-Applied"
+            }
+        ],
+        "pagination": {
+            "totalRecords": 1,
+            "limit": 20,
+            "offset": 0,
+            "sortBy": "createdAt",
+            "sortOrder": "asc"
+        }
+    },
+    "labels": [],
+    "templateType": "ctn-flybits-reward-confirmation-card",
+    "accessType": "rule",
+    "contentModeration": false,
+    "internal": false,
+    "metadata": null,
+    "surveyMetadata": null
+}

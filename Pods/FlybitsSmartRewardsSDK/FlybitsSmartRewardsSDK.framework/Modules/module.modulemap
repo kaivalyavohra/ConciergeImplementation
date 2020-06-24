@@ -1,0 +1,11 @@
+framework module FlybitsSmartRewardsSDK {
+  umbrella header "FlybitsSmartRewardsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FlybitsSmartRewardsSDK.Swift {
+    header "FlybitsSmartRewardsSDK-Swift.h"
+    requires objc
+}

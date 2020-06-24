@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CE8896FB4BA34A87DCF236F /* libPods-FlybitsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1D53E3E80A45DADC872A39 /* libPods-FlybitsTest.a */; };
+		B00864B82468120A00EE6D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00864B72468120A00EE6D0A /* AppDelegate.swift */; };
+		B00864BA2468120A00EE6D0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00864B92468120A00EE6D0A /* SceneDelegate.swift */; };
+		B00864BC2468120A00EE6D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00864BB2468120A00EE6D0A /* ViewController.swift */; };
+		B00864BF2468120A00EE6D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00864BD2468120A00EE6D0A /* Main.storyboard */; };
+		B00864C12468120B00EE6D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00864C02468120B00EE6D0A /* Assets.xcassets */; };
+		B00864C42468120B00EE6D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00864C22468120B00EE6D0A /* LaunchScreen.storyboard */; };
+		B00864CF2468120C00EE6D0A /* FlybitsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00864CE2468120C00EE6D0A /* FlybitsTestTests.swift */; };
+		B00864DA2468120C00EE6D0A /* FlybitsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00864D92468120C00EE6D0A /* FlybitsTestUITests.swift */; };
+		B043A1D624A0784F004B9A91 /* Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = B043A1D524A0784F004B9A91 /* Debug.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B00864CB2468120C00EE6D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00864AC2468120A00EE6D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00864B32468120A00EE6D0A;
+			remoteInfo = FlybitsTest;
+		};
+		B00864D62468120C00EE6D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00864AC2468120A00EE6D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00864B32468120A00EE6D0A;
+			remoteInfo = FlybitsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133C17F8C80226EBB41075ED /* Pods-FlybitsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlybitsTest.release.xcconfig"; path = "Target Support Files/Pods-FlybitsTest/Pods-FlybitsTest.release.xcconfig"; sourceTree = "<group>"; };
+		286EF58EA5529C0550D60E91 /* Pods-FlybitsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlybitsTest.debug.xcconfig"; path = "Target Support Files/Pods-FlybitsTest/Pods-FlybitsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1D53E3E80A45DADC872A39 /* libPods-FlybitsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlybitsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00864B42468120A00EE6D0A /* FlybitsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlybitsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00864B72468120A00EE6D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00864B92468120A00EE6D0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B00864BB2468120A00EE6D0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B00864BE2468120A00EE6D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00864C02468120B00EE6D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00864C32468120B00EE6D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00864C52468120B00EE6D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00864CA2468120C00EE6D0A /* FlybitsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlybitsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00864CE2468120C00EE6D0A /* FlybitsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlybitsTestTests.swift; sourceTree = "<group>"; };
+		B00864D02468120C00EE6D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00864D52468120C00EE6D0A /* FlybitsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlybitsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00864D92468120C00EE6D0A /* FlybitsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlybitsTestUITests.swift; sourceTree = "<group>"; };
+		B00864DB2468120C00EE6D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B043A1D524A0784F004B9A91 /* Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Debug.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00864B12468120A00EE6D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE8896FB4BA34A87DCF236F /* libPods-FlybitsTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00864C72468120C00EE6D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00864D22468120C00EE6D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CFC12C87E29176634A2761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD1D53E3E80A45DADC872A39 /* libPods-FlybitsTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00864AB2468120A00EE6D0A = {
+			isa = PBXGroup;
+			children = (
+				B00864B62468120A00EE6D0A /* FlybitsTest */,
+				B00864CD2468120C00EE6D0A /* FlybitsTestTests */,
+				B00864D82468120C00EE6D0A /* FlybitsTestUITests */,
+				B00864B52468120A00EE6D0A /* Products */,
+				EA9360B1D9A96E494DB32D84 /* Pods */,
+				26CFC12C87E29176634A2761 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B00864B52468120A00EE6D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00864B42468120A00EE6D0A /* FlybitsTest.app */,
+				B00864CA2468120C00EE6D0A /* FlybitsTestTests.xctest */,
+				B00864D52468120C00EE6D0A /* FlybitsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00864B62468120A00EE6D0A /* FlybitsTest */ = {
+			isa = PBXGroup;
+			children = (
+				B00864B72468120A00EE6D0A /* AppDelegate.swift */,
+				B00864B92468120A00EE6D0A /* SceneDelegate.swift */,
+				B00864BB2468120A00EE6D0A /* ViewController.swift */,
+				B00864BD2468120A00EE6D0A /* Main.storyboard */,
+				B00864C02468120B00EE6D0A /* Assets.xcassets */,
+				B00864C22468120B00EE6D0A /* LaunchScreen.storyboard */,
+				B00864C52468120B00EE6D0A /* Info.plist */,
+				B043A1D524A0784F004B9A91 /* Debug.plist */,
+			);
+			path = FlybitsTest;
+			sourceTree = "<group>";
+		};
+		B00864CD2468120C00EE6D0A /* FlybitsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00864CE2468120C00EE6D0A /* FlybitsTestTests.swift */,
+				B00864D02468120C00EE6D0A /* Info.plist */,
+			);
+			path = FlybitsTestTests;
+			sourceTree = "<group>";
+		};
+		B00864D82468120C00EE6D0A /* FlybitsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00864D92468120C00EE6D0A /* FlybitsTestUITests.swift */,
+				B00864DB2468120C00EE6D0A /* Info.plist */,
+			);
+			path = FlybitsTestUITests;
+			sourceTree = "<group>";
+		};
+		EA9360B1D9A96E494DB32D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				286EF58EA5529C0550D60E91 /* Pods-FlybitsTest.debug.xcconfig */,
+				133C17F8C80226EBB41075ED /* Pods-FlybitsTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00864B32468120A00EE6D0A /* FlybitsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00864DE2468120C00EE6D0A /* Build configuration list for PBXNativeTarget "FlybitsTest" */;
+			buildPhases = (
+				511EED9AC9C2F7AD5922DD99 /* [CP] Check Pods Manifest.lock */,
+				B00864B02468120A00EE6D0A /* Sources */,
+				B00864B12468120A00EE6D0A /* Frameworks */,
+				B00864B22468120A00EE6D0A /* Resources */,
+				88275C0A91FFA40375E65BDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlybitsTest;
+			productName = FlybitsTest;
+			productReference = B00864B42468120A00EE6D0A /* FlybitsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00864C92468120C00EE6D0A /* FlybitsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00864E12468120C00EE6D0A /* Build configuration list for PBXNativeTarget "FlybitsTestTests" */;
+			buildPhases = (
+				B00864C62468120C00EE6D0A /* Sources */,
+				B00864C72468120C00EE6D0A /* Frameworks */,
+				B00864C82468120C00EE6D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00864CC2468120C00EE6D0A /* PBXTargetDependency */,
+			);
+			name = FlybitsTestTests;
+			productName = FlybitsTestTests;
+			productReference = B00864CA2468120C00EE6D0A /* FlybitsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B00864D42468120C00EE6D0A /* FlybitsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00864E42468120C00EE6D0A /* Build configuration list for PBXNativeTarget "FlybitsTestUITests" */;
+			buildPhases = (
+				B00864D12468120C00EE6D0A /* Sources */,
+				B00864D22468120C00EE6D0A /* Frameworks */,
+				B00864D32468120C00EE6D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00864D72468120C00EE6D0A /* PBXTargetDependency */,
+			);
+			name = FlybitsTestUITests;
+			productName = FlybitsTestUITests;
+			productReference = B00864D52468120C00EE6D0A /* FlybitsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00864AC2468120A00EE6D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Kaivalya Vohra";
+				TargetAttributes = {
+					B00864B32468120A00EE6D0A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B00864C92468120C00EE6D0A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B00864B32468120A00EE6D0A;
+					};
+					B00864D42468120C00EE6D0A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B00864B32468120A00EE6D0A;
+					};
+				};
+			};
+			buildConfigurationList = B00864AF2468120A00EE6D0A /* Build configuration list for PBXProject "FlybitsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00864AB2468120A00EE6D0A;
+			productRefGroup = B00864B52468120A00EE6D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00864B32468120A00EE6D0A /* FlybitsTest */,
+				B00864C92468120C00EE6D0A /* FlybitsTestTests */,
+				B00864D42468120C00EE6D0A /* FlybitsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00864B22468120A00EE6D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B043A1D624A0784F004B9A91 /* Debug.plist in Resources */,
+				B00864C42468120B00EE6D0A /* LaunchScreen.storyboard in Resources */,
+				B00864C12468120B00EE6D0A /* Assets.xcassets in Resources */,
+				B00864BF2468120A00EE6D0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00864C82468120C00EE6D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00864D32468120C00EE6D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		511EED9AC9C2F7AD5922DD99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlybitsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88275C0A91FFA40375E65BDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlybitsTest/Pods-FlybitsTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlybitsTest/Pods-FlybitsTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlybitsTest/Pods-FlybitsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00864B02468120A00EE6D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00864BC2468120A00EE6D0A /* ViewController.swift in Sources */,
+				B00864B82468120A00EE6D0A /* AppDelegate.swift in Sources */,
+				B00864BA2468120A00EE6D0A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00864C62468120C00EE6D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00864CF2468120C00EE6D0A /* FlybitsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00864D12468120C00EE6D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00864DA2468120C00EE6D0A /* FlybitsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00864CC2468120C00EE6D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00864B32468120A00EE6D0A /* FlybitsTest */;
+			targetProxy = B00864CB2468120C00EE6D0A /* PBXContainerItemProxy */;
+		};
+		B00864D72468120C00EE6D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00864B32468120A00EE6D0A /* FlybitsTest */;
+			targetProxy = B00864D62468120C00EE6D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B00864BD2468120A00EE6D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00864BE2468120A00EE6D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00864C22468120B00EE6D0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00864C32468120B00EE6D0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00864DC2468120C00EE6D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00864DD2468120C00EE6D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00864DF2468120C00EE6D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286EF58EA5529C0550D60E91 /* Pods-FlybitsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FF8NWGH3P;
+				INFOPLIST_FILE = FlybitsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaivalyavohra.FlybitsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00864E02468120C00EE6D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133C17F8C80226EBB41075ED /* Pods-FlybitsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FF8NWGH3P;
+				INFOPLIST_FILE = FlybitsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaivalyavohra.FlybitsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B00864E22468120C00EE6D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FF8NWGH3P;
+				INFOPLIST_FILE = FlybitsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaivalyavohra.FlybitsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlybitsTest.app/FlybitsTest";
+			};
+			name = Debug;
+		};
+		B00864E32468120C00EE6D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FF8NWGH3P;
+				INFOPLIST_FILE = FlybitsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaivalyavohra.FlybitsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlybitsTest.app/FlybitsTest";
+			};
+			name = Release;
+		};
+		B00864E52468120C00EE6D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FF8NWGH3P;
+				INFOPLIST_FILE = FlybitsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaivalyavohra.FlybitsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlybitsTest;
+			};
+			name = Debug;
+		};
+		B00864E62468120C00EE6D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FF8NWGH3P;
+				INFOPLIST_FILE = FlybitsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaivalyavohra.FlybitsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlybitsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00864AF2468120A00EE6D0A /* Build configuration list for PBXProject "FlybitsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00864DC2468120C00EE6D0A /* Debug */,
+				B00864DD2468120C00EE6D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00864DE2468120C00EE6D0A /* Build configuration list for PBXNativeTarget "FlybitsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00864DF2468120C00EE6D0A /* Debug */,
+				B00864E02468120C00EE6D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00864E12468120C00EE6D0A /* Build configuration list for PBXNativeTarget "FlybitsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00864E22468120C00EE6D0A /* Debug */,
+				B00864E32468120C00EE6D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00864E42468120C00EE6D0A /* Build configuration list for PBXNativeTarget "FlybitsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00864E52468120C00EE6D0A /* Debug */,
+				B00864E62468120C00EE6D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00864AC2468120A00EE6D0A /* Project object */;
+}

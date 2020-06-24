@@ -1,0 +1,11 @@
+framework module FlybitsConciergeSDK {
+  umbrella header "FlybitsConciergeSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FlybitsConciergeSDK.Swift {
+    header "FlybitsConciergeSDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-FlybitsTest/Pods-FlybitsTest-frameworks.sh
+${PODS_ROOT}/FlybitsConciergeSDK/FlybitsConciergeSDK.framework
+${PODS_ROOT}/FlybitsContextLocationPluginSDK/FlybitsContextLocationPluginSDK.framework
+${PODS_ROOT}/FlybitsContextSDK/FlybitsContextSDK.framework
+${PODS_ROOT}/FlybitsKernelSDK/FlybitsKernelSDK.framework
+${PODS_ROOT}/FlybitsPushSDK/FlybitsPushSDK.framework
+${PODS_ROOT}/FlybitsSDK/FlybitsSDK.framework
+${PODS_ROOT}/FlybitsSmartRewardsSDK/FlybitsSmartRewardsSDK.framework
