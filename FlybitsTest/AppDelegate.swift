@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 import FlybitsPushSDK
 import FlybitsConciergeSDK
 import FlybitsContextSDK
@@ -43,14 +44,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Determine if this should be called based on your use cases. It's recommended to register each time the app is ran to
         // ensure the push token hasn't been changed in APNS. If it has then Flybits will not be able to send Notifications to
         // your users when they're in context
-        if FlybitsConciergeManager.isConnected {
-            FlybitsConciergeManager.registerForPushNotifications()
-        }
+        FlybitsConciergeManager.registerForPushNotifications()
+        
 
         return true
     }
 
 
+    
+}
+
+extension AppDelegate: UNUserNotificationCenterDelegate {
     @objc
     public func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
 
@@ -60,9 +64,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Setting the device token here will cause the token to be registered with Flybits.
         PushManager.shared.configuration.apnsToken = deviceToken
     }
-}
-
-extension AppDelegate: UNUserNotificationCenterDelegate {
+    public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    _ = PushManager.shared.received(userInfo as! [String: Any]) { (result) in
+            completionHandler(result)
+        }
+    }
 
     public func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
 
