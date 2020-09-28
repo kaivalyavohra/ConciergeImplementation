@@ -25,20 +25,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
         FlybitsManager.enableLogging()
+        FlybitsManager.environment = FlybitsManager.Environment.other("https://api.demo.flybits.com")
         FlybitsConciergeManager.shared.register(contentTemplates: SmartRewardsContentViewables.contentViewables())
         
 
         ContextManager.shared.register([.location], launchOptions: launchOptions)
         FlybitsConciergeManager.configure()
-        FlybitsConciergeManager.shared.connectFlybitsManager(to: "1F765CBC-DD8D-4B58-B90A-EF2BB8220738", with: AnonymousIDP(), completion: { (error) in
-                        guard error == nil else {
-                            // Call your applications authentication callback with Error param and fail it
-                            print("auth failed")
-                            return
-                        }
-                        
-                        
-                    })
+//        FlybitsConciergeManager.shared.connectFlybitsManager(to: "1F765CBC-DD8D-4B58-B90A-EF2BB8220738", with: JwtIDP(token:"eyJhbGciOiJIUzI1NiIsImtpZCI6IjFGNzY1Q0JDLUREOEQtNEI1OC1COTBBLUVGMkJCODIyMDczOCIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDQ4MjUwMTYsIm5iZiI6MTU5OTY0MTAxNiwidXNlcklEIjoiQzdDQjhGRjQtOTI3RC00OUFGLTlEMTQtNERCNUZFMTMwNUJEIiwiZGV2aWNlSUQiOiI3MEFBM0M3Qi03MURDLTQ5NzItQjREQi05N0JEMTU4RjE3Q0YiLCJ0ZW5hbnRJRCI6IjFGNzY1Q0JDLUREOEQtNEI1OC1COTBBLUVGMkJCODIyMDczOCIsImlzU0EiOmZhbHNlfQ.yOk_5KQxo8Lih76HcDrGPlCoA5eKiPGhxK6WtHCTh3I"), completion: { (error) in
+//                        guard error == nil else {
+//                            // Call your applications authentication callback with Error param and fail it
+//                            print("auth failed")
+//                            return
+//                        }
+//                        
+//                        
+//                    })
  
 
         // Determine if this should be called based on your use cases. It's recommended to register each time the app is ran to

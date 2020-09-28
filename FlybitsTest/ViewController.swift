@@ -13,72 +13,48 @@ import FlybitsContextSDK
 import FlybitsSmartRewardsSDK
 import FlybitsContextLocationPluginSDK
 class ViewController: UIViewController {
+    var userNo = -1
+    var userNameArray = ["testuser1@yopmail.com","testuser2@yopmail.com"]
+    var passArray = ["System100$","System100$"]
 
-
-    @IBOutlet var LeadingC: NSLayoutConstraint!
-    @IBOutlet var TrailingC: NSLayoutConstraint!
-    var showingHamburgerMenu = false
-    @IBAction func hamburgerClicked(_ sender: Any) {
-        print(LeadingC.constant)
-        if !showingHamburgerMenu{
-            LeadingC.constant = 150
-            //TrailingC.constant = -150
-            showingHamburgerMenu = true
-        }else{
-            LeadingC.constant = 0
-            TrailingC.constant = 0
-            showingHamburgerMenu = false
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // Do any additional setup after loading the view.
         FlybitsManager.enableLogging()
-        FlybitsConciergeManager.shared.register(contentTemplates: SmartRewardsContentViewables.contentViewables())
+        //FlybitsConciergeManager.shared.register(contentTemplates: SmartRewardsContentViewables.contentViewables())
+        
 
+        FlybitsManager.environment = FlybitsManager.Environment.other("https://api.demo.flybits.com/")
 
-    }
-    
-    @IBAction func showConcierge(_ sender: Any) {
-
-        if FlybitsConciergeManager.isConnected {
+        //ContextManager.shared.register([.location], launchOptions: launchOptions)
+        FlybitsConciergeManager.configure()
+        FlybitsConciergeManager.shared.connectFlybitsManager(to: "1F765CBC-DD8D-4B58-B90A-EF2BB8220738", with: FlybitsIDP(email: userNameArray[userNo], password: passArray[userNo])) { (error) in
             DispatchQueue.main.async {
-                //let flybitsConfig = self.flybitsConfiguration()
-                let contextData = ContextData(pluginId: "ctx.flybits.locationDeviceAnalytics",
-                values: ["locationlabel1": "Home",
-                "locationlabel2": "Work",
-                "coordinates1": ["lat": 25.056345, "lng": 55.207793],
-                "coordinates2": ["lat": 25.056345, "lng": 55.207793]
-                ])
-                ContextManager.sendContextData([contextData]) { (error) in
-                }
-                
+                let concierge = FlybitsConciergeManager.conciergeViewController(for: "1F765CBC-DD8D-4B58-B90A-EF2BB8220738", using: "", display: [.displayMode: DisplayMode.navigation])
+                self.addChild(concierge)
 
-                let viewController = FlybitsConciergeManager.shared.conciergeNavigationController()
-                self.present(viewController, animated: true, completion: nil)
-                self.LeadingC.constant = 0
-                self.TrailingC.constant = 0
-                self.showingHamburgerMenu = false
-                
-                
-                
+                self.view.addSubview(concierge.view)
+                self.view.pin(concierge.view)
+
+                concierge.didMove(toParent: self)
             }
         }
-        
-        
+
+
     }
-    func flybitsConfiguration() -> [String: String] {
-        var result:[String:String] = [:]
-       
-       if let value = ProcessInfo.processInfo.environment["Flybits-Configuration"] {
-         let plistPath = Bundle.main.path(forResource: value, ofType: nil)!
-         let nsDictionary = NSDictionary(contentsOfFile: plistPath)
-         if let config = NSDictionary(contentsOfFile: plistPath) as? [String: String] {
-            result = config
-         }
-       }
-       
-       return result
+}
+
+
+
+extension UIView {
+    func pin(_ view: UIView) {
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[childView]|",
+                                                      options: [],
+                                                      metrics: nil,
+                                                      views: ["childView": view]))
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[childView]|",
+                                                      options: [],
+                                                      metrics: nil,
+                                                      views: ["childView": view]))
     }
 }
