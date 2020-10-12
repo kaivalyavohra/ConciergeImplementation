@@ -9,71 +9,71 @@
 /* Begin PBXAggregateTarget section */
 		586DAE8370B729469E3585888ABF42B5 /* FlybitsContextLocationPluginSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CF12A16E6E0ABB419DB240E0B787304E /* Build configuration list for PBXAggregateTarget "FlybitsContextLocationPluginSDK" */;
+			buildConfigurationList = 67E8E314C262A582DD474D53B9D4A6BF /* Build configuration list for PBXAggregateTarget "FlybitsContextLocationPluginSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				752D17819BEB54619ACC294DA2A515CD /* PBXTargetDependency */,
-				291DAF4A3D58B0A8E01E95E4AC478470 /* PBXTargetDependency */,
+				9759915F7D27F6A2337161C7EBF7E843 /* PBXTargetDependency */,
+				7CA9472FADE4557E669FE4AC38AA559A /* PBXTargetDependency */,
 			);
 			name = FlybitsContextLocationPluginSDK;
 		};
 		5ACEBCE85F4DCA89A7C7A2E8F84F8DED /* FlybitsConciergeSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 909C68196D10E3F2728B52FEB342555D /* Build configuration list for PBXAggregateTarget "FlybitsConciergeSDK" */;
+			buildConfigurationList = BD1008C578BB60DBEA2C4257BCE76A34 /* Build configuration list for PBXAggregateTarget "FlybitsConciergeSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				0CDCE9B8610B0B15BB328ACA33CC609F /* PBXTargetDependency */,
-				0C101CD1557A2AE6D08D4B9F3FC543DB /* PBXTargetDependency */,
-				B57ACD0BFD6A72B562A34AD1A2FAF682 /* PBXTargetDependency */,
-				B6406F9BAAF1B0738A05AE4BF4B4EF80 /* PBXTargetDependency */,
+				4D29CC778A65D59CDA57477FCE22C293 /* PBXTargetDependency */,
+				EB8E4B04814C6558BC0973D2CF87384C /* PBXTargetDependency */,
+				E8FC510869D52774BC6F4B9ADAB1DA09 /* PBXTargetDependency */,
+				374C8097E4888C50DCCBAE392E604548 /* PBXTargetDependency */,
 			);
 			name = FlybitsConciergeSDK;
 		};
 		68DA499335AE8E813BC3A369A5272A0B /* FlybitsContextSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9798304A79FA48401002863CAAA89F14 /* Build configuration list for PBXAggregateTarget "FlybitsContextSDK" */;
+			buildConfigurationList = 930332857D061F748F6E22AA568DFFDD /* Build configuration list for PBXAggregateTarget "FlybitsContextSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				EB768FFDCDA754BA221EC5ACE6F92BF0 /* PBXTargetDependency */,
+				A0292BBFB4F93D6F08690C9AF1826CC0 /* PBXTargetDependency */,
 			);
 			name = FlybitsContextSDK;
 		};
 		77B15C0271475436D09BA954B0CDD86D /* FlybitsSmartRewardsSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 620642F12D3E941A41ACEE55F18ABC56 /* Build configuration list for PBXAggregateTarget "FlybitsSmartRewardsSDK" */;
+			buildConfigurationList = CC7C316D55D4A5A11A90D0EC0D045196 /* Build configuration list for PBXAggregateTarget "FlybitsSmartRewardsSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				51B48B557ABA85E5F1BE3ABC7D248F25 /* PBXTargetDependency */,
+				71E01A06ABB632B7CA41E51E8F7B5781 /* PBXTargetDependency */,
 			);
 			name = FlybitsSmartRewardsSDK;
 		};
 		B177315585E424FE01CD2C830A804392 /* FlybitsKernelSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 30C61709607D5A52FA9B3301BC1069ED /* Build configuration list for PBXAggregateTarget "FlybitsKernelSDK" */;
+			buildConfigurationList = E5D65D5CF0B06A2541E3C9D64FDB1C80 /* Build configuration list for PBXAggregateTarget "FlybitsKernelSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				D6D5C82A79A8614E043358AA53D43CF3 /* PBXTargetDependency */,
+				0D2B417689F3EA76FE922FD029DEFE5C /* PBXTargetDependency */,
 			);
 			name = FlybitsKernelSDK;
 		};
 		B817A4C462352297A30D09DB73F8CAB9 /* FlybitsPushSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F8FFADACDA9E5B2F590DEBB31A2D4500 /* Build configuration list for PBXAggregateTarget "FlybitsPushSDK" */;
+			buildConfigurationList = 2C4B7F7121633443F62B4604AB15663B /* Build configuration list for PBXAggregateTarget "FlybitsPushSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				3D5A34EE00E59FCF5D51A4A3853A933B /* PBXTargetDependency */,
+				12BF6358CE02CC5149B0831EC009D656 /* PBXTargetDependency */,
 			);
 			name = FlybitsPushSDK;
 		};
 		DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9F0B4998BC176675F97966500D196007 /* Build configuration list for PBXAggregateTarget "FlybitsSDK" */;
+			buildConfigurationList = 78A059FD60B3E24EBC227510ADA39DBC /* Build configuration list for PBXAggregateTarget "FlybitsSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -83,165 +83,166 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4D2C189AB0F2C8C41FC014C1D331B5E2 /* Pods-FlybitsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10B003F3FC89542C586238DF5B76E05 /* Pods-FlybitsTest-dummy.m */; };
+		2DFE2FC893E204AFB9A563A9E00557D6 /* Pods-FlybitsTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D04948688E3AEC2AA278A8C0685D20 /* Pods-FlybitsTest-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0777C8109F83B3955B8C3EF223A563DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
-			remoteInfo = FlybitsSDK;
-		};
-		10C1393D42B58C5C4FFADD19D9D87C7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68DA499335AE8E813BC3A369A5272A0B;
-			remoteInfo = FlybitsContextSDK;
-		};
-		17749A4F0C475D20D5652B2996F829A6 /* PBXContainerItemProxy */ = {
+		0A1CBD8FD1AEBE5C5EE8269C7E2D9004 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B177315585E424FE01CD2C830A804392;
 			remoteInfo = FlybitsKernelSDK;
 		};
-		209A53821F56B248A4F4FC474858563D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
-			remoteInfo = FlybitsSDK;
-		};
-		398241925AB02F7952A685B7028F7147 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
-			remoteInfo = FlybitsSDK;
-		};
-		411099CE63F124EE665C736B79AC90C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5ACEBCE85F4DCA89A7C7A2E8F84F8DED;
-			remoteInfo = FlybitsConciergeSDK;
-		};
-		5122E00A41C9054F1CC29E6374D41575 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B817A4C462352297A30D09DB73F8CAB9;
-			remoteInfo = FlybitsPushSDK;
-		};
-		5D1D09B38097B1FA45F067DB450896AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68DA499335AE8E813BC3A369A5272A0B;
-			remoteInfo = FlybitsContextSDK;
-		};
-		6E3426BF3DC293ADADAEA63AE6BBDBB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B817A4C462352297A30D09DB73F8CAB9;
-			remoteInfo = FlybitsPushSDK;
-		};
-		79376CA7F2A01E63B8E23E6B5E8D60E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
-			remoteInfo = FlybitsSDK;
-		};
-		7C74CEA9020A1D8292E093416F50D5C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 77B15C0271475436D09BA954B0CDD86D;
-			remoteInfo = FlybitsSmartRewardsSDK;
-		};
-		9E2F898A267AAB527F87EACB93B72318 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68DA499335AE8E813BC3A369A5272A0B;
-			remoteInfo = FlybitsContextSDK;
-		};
-		A1D888A5973C8A6315BD95C4200D4943 /* PBXContainerItemProxy */ = {
+		0DFD93082613BA99E0E022560532A14C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 586DAE8370B729469E3585888ABF42B5;
 			remoteInfo = FlybitsContextLocationPluginSDK;
 		};
-		B8E3B8E4CBFAB5BDCBFEE4E796295507 /* PBXContainerItemProxy */ = {
+		1057201119C6762975DC75F881568D5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
 			remoteInfo = FlybitsSDK;
 		};
-		D540699DEFBDBE7ED1491EFDA2895C86 /* PBXContainerItemProxy */ = {
+		12172E2FD82D0F4E01B1DAA953E501B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B817A4C462352297A30D09DB73F8CAB9;
+			remoteInfo = FlybitsPushSDK;
+		};
+		32D8F5E638530653522800947928D303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DA499335AE8E813BC3A369A5272A0B;
+			remoteInfo = FlybitsContextSDK;
+		};
+		3BBF445F13C14594A76E4801510CF497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
+			remoteInfo = FlybitsSDK;
+		};
+		438485EEEB82B14E7BDD8E38EE8C66BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B177315585E424FE01CD2C830A804392;
 			remoteInfo = FlybitsKernelSDK;
 		};
-		EC3DD94342FCC3ACEE0855284DAE0223 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
-			remoteInfo = FlybitsSDK;
-		};
-		F6B35758CA9A07C1D07650E697455069 /* PBXContainerItemProxy */ = {
+		4848E844C90C10DF0F2D82111F4644FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5ACEBCE85F4DCA89A7C7A2E8F84F8DED;
 			remoteInfo = FlybitsConciergeSDK;
 		};
+		4D19BC146F1D5A4C1BC5A1A8CF71D90D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACEBCE85F4DCA89A7C7A2E8F84F8DED;
+			remoteInfo = FlybitsConciergeSDK;
+		};
+		8D5D23E6018672ADF0FFBE3387DF700C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DA499335AE8E813BC3A369A5272A0B;
+			remoteInfo = FlybitsContextSDK;
+		};
+		91B802C5AA42EA26CA93F3204AC41920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
+			remoteInfo = FlybitsSDK;
+		};
+		B654E575909C442B6873ECBBD62AAFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
+			remoteInfo = FlybitsSDK;
+		};
+		BAF8A7EFAA4681B00090F20E971A8D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
+			remoteInfo = FlybitsSDK;
+		};
+		BB74ECC3B66C00FA9622ED96E6275B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B817A4C462352297A30D09DB73F8CAB9;
+			remoteInfo = FlybitsPushSDK;
+		};
+		C2BCE98D2F0F8962EDFF66D3064F1D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DA499335AE8E813BC3A369A5272A0B;
+			remoteInfo = FlybitsContextSDK;
+		};
+		D4AFBA067392391268A6747162B7A0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B15C0271475436D09BA954B0CDD86D;
+			remoteInfo = FlybitsSmartRewardsSDK;
+		};
+		FDE427C498860BA76DFE60DC48CDF6EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6E2C47AA985715613545815BE4D579;
+			remoteInfo = FlybitsSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0084C945B2CAD957D622A5CA81EB2B29 /* FlybitsPushSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsPushSDK.debug.xcconfig; sourceTree = "<group>"; };
+		032A67912799152C90811D5813DA0F0C /* Pods-FlybitsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlybitsTest.debug.xcconfig"; sourceTree = "<group>"; };
 		09632835AA3AB0DE20E964DCFD20C5CE /* FlybitsSmartRewardsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsSmartRewardsSDK.release.xcconfig; sourceTree = "<group>"; };
 		0E2127DAD1EAB83A0FAEA387C72E5355 /* FlybitsContextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsContextSDK.framework; sourceTree = "<group>"; };
 		0E2C6243F738A69497952F092778F988 /* FlybitsContextLocationPluginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsContextLocationPluginSDK.release.xcconfig; sourceTree = "<group>"; };
 		12F8CC71700C34FC85EDA686D24A79C5 /* FlybitsContextSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsContextSDK.debug.xcconfig; sourceTree = "<group>"; };
-		17CC890E565CE5AADC5EA66813E4A1FF /* Pods-FlybitsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlybitsTest-frameworks.sh"; sourceTree = "<group>"; };
 		1B8E1DFFFC03B1B5D1EB3846796239F7 /* FlybitsKernelSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsKernelSDK.framework; sourceTree = "<group>"; };
 		1D94AFA1FE9C98DB0DD351F77B7C26DE /* FlybitsContextLocationPluginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsContextLocationPluginSDK.debug.xcconfig; sourceTree = "<group>"; };
 		22233CD35F883E58A9F54897BF11C9E9 /* FlybitsConciergeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsConciergeSDK.framework; sourceTree = "<group>"; };
 		32624CCAB5E9A5410EB6EF126C2D9566 /* FlybitsSmartRewardsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsSmartRewardsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		48312B1AF63445C819B0E23F379DD429 /* FlybitsKernelSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsKernelSDK.debug.xcconfig; sourceTree = "<group>"; };
 		4AE7CE418F7B36C52C47BA1CC6DD8A2A /* FlybitsContextSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsContextSDK.release.xcconfig; sourceTree = "<group>"; };
-		54DA01225F5067EAE3F84185CEA38D19 /* Pods-FlybitsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlybitsTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		56F22CC3518B064319170FF504227E04 /* FlybitsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsSDK.framework; sourceTree = "<group>"; };
-		6232ED978FACC27C1704B53301E1307F /* Pods-FlybitsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlybitsTest.release.xcconfig"; sourceTree = "<group>"; };
 		8B3EE9AE68BA3C3FBFEB5F90AD77434A /* FlybitsContextLocationPluginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsContextLocationPluginSDK.framework; sourceTree = "<group>"; };
 		946F4565131F555BEE1571AB8FEF4775 /* FlybitsPushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsPushSDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D04948688E3AEC2AA278A8C0685D20 /* Pods-FlybitsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlybitsTest-dummy.m"; sourceTree = "<group>"; };
 		A644F7F675D5D2A3A50F25431FC52BF9 /* FlybitsSmartRewardsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlybitsSmartRewardsSDK.framework; sourceTree = "<group>"; };
-		AC790108B8DEEBBD51A1361EFEEE6EA0 /* Pods-FlybitsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlybitsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B15CB92F6895A4F8100E83DD2E3D2792 /* Pods-FlybitsTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlybitsTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1A1183939A50C35D0C51F0D794BF45D /* FlybitsConciergeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsConciergeSDK.release.xcconfig; sourceTree = "<group>"; };
+		B1B2714BBE05862033EAB656BEDEC9F5 /* Pods-FlybitsTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlybitsTest-frameworks.sh"; sourceTree = "<group>"; };
 		B397BF4D9B0E5AB7785E6CB88E16820A /* FlybitsConciergeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsConciergeSDK.debug.xcconfig; sourceTree = "<group>"; };
 		D20C27EAC2CCB432018ECF084047424B /* FlybitsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D33ECE43210163F7146DC9F3E5E09448 /* Pods-FlybitsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlybitsTest.release.xcconfig"; sourceTree = "<group>"; };
 		DAF685C7B053B9D0C2591ACAD35F062E /* libPods-FlybitsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FlybitsTest.a"; path = "libPods-FlybitsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E09C9566F3EA10A3CC31743F61F74C54 /* Pods-FlybitsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlybitsTest.debug.xcconfig"; sourceTree = "<group>"; };
-		E10B003F3FC89542C586238DF5B76E05 /* Pods-FlybitsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlybitsTest-dummy.m"; sourceTree = "<group>"; };
+		E096711EAD15C470088D03B05559A1DC /* Pods-FlybitsTest.mastercard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlybitsTest.mastercard.xcconfig"; sourceTree = "<group>"; };
 		EAE3E9C9B6F0BE65F029D3942FCC4A71 /* FlybitsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsSDK.release.xcconfig; sourceTree = "<group>"; };
+		F0C2B4ECCAC395F4BA0EB0B109649C7C /* Pods-FlybitsTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlybitsTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		F42BC7278853F207B9294572E6E25CB0 /* FlybitsKernelSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsKernelSDK.release.xcconfig; sourceTree = "<group>"; };
 		F4408FA7E5D3CF06F5F88632C7CADAF2 /* FlybitsPushSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlybitsPushSDK.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F43901F7E588993F1A26136BF7AE68D3 /* Frameworks */ = {
+		39DEAAE4DE02E4FB0CC090442D0A2B94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,20 +280,6 @@
 				291326016BD5511A418E82412CBD94A6 /* FlybitsSmartRewardsSDK */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		1FEFBA4BEC7E9A9A917F7E42E192E4DF /* Pods-FlybitsTest */ = {
-			isa = PBXGroup;
-			children = (
-				AC790108B8DEEBBD51A1361EFEEE6EA0 /* Pods-FlybitsTest-acknowledgements.markdown */,
-				54DA01225F5067EAE3F84185CEA38D19 /* Pods-FlybitsTest-acknowledgements.plist */,
-				E10B003F3FC89542C586238DF5B76E05 /* Pods-FlybitsTest-dummy.m */,
-				17CC890E565CE5AADC5EA66813E4A1FF /* Pods-FlybitsTest-frameworks.sh */,
-				E09C9566F3EA10A3CC31743F61F74C54 /* Pods-FlybitsTest.debug.xcconfig */,
-				6232ED978FACC27C1704B53301E1307F /* Pods-FlybitsTest.release.xcconfig */,
-			);
-			name = "Pods-FlybitsTest";
-			path = "Target Support Files/Pods-FlybitsTest";
 			sourceTree = "<group>";
 		};
 		25BB846AC4FBF510044878D17DB1E2ED /* Frameworks */ = {
@@ -347,6 +334,14 @@
 				56F22CC3518B064319170FF504227E04 /* FlybitsSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411681DCF3C1A86DFC5E3292E8A003C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8AA7F18837E00B91CDF4BDAAD326377 /* Pods-FlybitsTest */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		443CE996A4A23AA5C5AF8B6B8AB1A624 /* Support Files */ = {
@@ -435,6 +430,21 @@
 			path = "../Target Support Files/FlybitsKernelSDK";
 			sourceTree = "<group>";
 		};
+		A8AA7F18837E00B91CDF4BDAAD326377 /* Pods-FlybitsTest */ = {
+			isa = PBXGroup;
+			children = (
+				B15CB92F6895A4F8100E83DD2E3D2792 /* Pods-FlybitsTest-acknowledgements.markdown */,
+				F0C2B4ECCAC395F4BA0EB0B109649C7C /* Pods-FlybitsTest-acknowledgements.plist */,
+				A4D04948688E3AEC2AA278A8C0685D20 /* Pods-FlybitsTest-dummy.m */,
+				B1B2714BBE05862033EAB656BEDEC9F5 /* Pods-FlybitsTest-frameworks.sh */,
+				032A67912799152C90811D5813DA0F0C /* Pods-FlybitsTest.debug.xcconfig */,
+				E096711EAD15C470088D03B05559A1DC /* Pods-FlybitsTest.mastercard.xcconfig */,
+				D33ECE43210163F7146DC9F3E5E09448 /* Pods-FlybitsTest.release.xcconfig */,
+			);
+			name = "Pods-FlybitsTest";
+			path = "Target Support Files/Pods-FlybitsTest";
+			sourceTree = "<group>";
+		};
 		A93FFD422003F2D418A03BC81C7BB66B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,14 +463,6 @@
 			path = FlybitsKernelSDK;
 			sourceTree = "<group>";
 		};
-		C3DF1B290EE2F10CF810396C8E117AB6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1FEFBA4BEC7E9A9A917F7E42E192E4DF /* Pods-FlybitsTest */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -468,7 +470,7 @@
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				14A41407E00733FDB0B399052470562D /* Pods */,
 				1172FED4AA7E6E2D2032BB449407A907 /* Products */,
-				C3DF1B290EE2F10CF810396C8E117AB6 /* Targets Support Files */,
+				411681DCF3C1A86DFC5E3292E8A003C9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -512,7 +514,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C192D27C2E0043715ECC616DA70D25E7 /* Headers */ = {
+		1C21B2EDD84FBF0E3F274123E1FD416F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -524,22 +526,22 @@
 /* Begin PBXNativeTarget section */
 		FB240402F2F346E268C14A4DFF3BB932 /* Pods-FlybitsTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CE2213D8FB9B5B58E5BCBB131A3A07E /* Build configuration list for PBXNativeTarget "Pods-FlybitsTest" */;
+			buildConfigurationList = AB1EE5E558D9DC0A607B4EEE28106506 /* Build configuration list for PBXNativeTarget "Pods-FlybitsTest" */;
 			buildPhases = (
-				C192D27C2E0043715ECC616DA70D25E7 /* Headers */,
-				20FFBDC9C74ACF619691BCE8C171C9B0 /* Sources */,
-				F43901F7E588993F1A26136BF7AE68D3 /* Frameworks */,
+				1C21B2EDD84FBF0E3F274123E1FD416F /* Headers */,
+				2A534B43D09D57B29481A5A8AA5AC3EF /* Sources */,
+				39DEAAE4DE02E4FB0CC090442D0A2B94 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE15D1A06B4EB3475F35E0332F262869 /* PBXTargetDependency */,
-				F666146AB8230024E295DD6046A86349 /* PBXTargetDependency */,
-				6674AE1088A3FE0E3CB2FCD67390A883 /* PBXTargetDependency */,
-				60F4109AEA72C8452D7F37A19D3E5CA1 /* PBXTargetDependency */,
-				97E0FA2437A1AEC0DBC44F05CB931313 /* PBXTargetDependency */,
-				F23AD42DCEA63C9E57345F88E9869B0D /* PBXTargetDependency */,
-				BA6F43FA9668BB3BFB4B6CC7CCCE382A /* PBXTargetDependency */,
+				EBB731EE53205E031CA82290D3AD3A0E /* PBXTargetDependency */,
+				8EC3A323B4760ADDE63339290E286696 /* PBXTargetDependency */,
+				104816ED9892156D657736F5C0A2AAFE /* PBXTargetDependency */,
+				798591D1293833BB02882D9186DFE04F /* PBXTargetDependency */,
+				FF3A6AC21276CD71A2026F22472DD899 /* PBXTargetDependency */,
+				E4B381602A90F213A8ECB55DC2AF0149 /* PBXTargetDependency */,
+				E4B7FB284929FA931A35B1368FF358B1 /* PBXTargetDependency */,
 			);
 			name = "Pods-FlybitsTest";
 			productName = "Pods-FlybitsTest";
@@ -581,247 +583,123 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20FFBDC9C74ACF619691BCE8C171C9B0 /* Sources */ = {
+		2A534B43D09D57B29481A5A8AA5AC3EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2C189AB0F2C8C41FC014C1D331B5E2 /* Pods-FlybitsTest-dummy.m in Sources */,
+				2DFE2FC893E204AFB9A563A9E00557D6 /* Pods-FlybitsTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C101CD1557A2AE6D08D4B9F3FC543DB /* PBXTargetDependency */ = {
+		0D2B417689F3EA76FE922FD029DEFE5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FlybitsKernelSDK;
-			target = B177315585E424FE01CD2C830A804392 /* FlybitsKernelSDK */;
-			targetProxy = D540699DEFBDBE7ED1491EFDA2895C86 /* PBXContainerItemProxy */;
+			name = FlybitsSDK;
+			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
+			targetProxy = 91B802C5AA42EA26CA93F3204AC41920 /* PBXContainerItemProxy */;
 		};
-		0CDCE9B8610B0B15BB328ACA33CC609F /* PBXTargetDependency */ = {
+		104816ED9892156D657736F5C0A2AAFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsContextSDK;
 			target = 68DA499335AE8E813BC3A369A5272A0B /* FlybitsContextSDK */;
-			targetProxy = 10C1393D42B58C5C4FFADD19D9D87C7B /* PBXContainerItemProxy */;
+			targetProxy = 8D5D23E6018672ADF0FFBE3387DF700C /* PBXContainerItemProxy */;
 		};
-		291DAF4A3D58B0A8E01E95E4AC478470 /* PBXTargetDependency */ = {
+		12BF6358CE02CC5149B0831EC009D656 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsSDK;
 			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
-			targetProxy = 0777C8109F83B3955B8C3EF223A563DB /* PBXContainerItemProxy */;
+			targetProxy = B654E575909C442B6873ECBBD62AAFE7 /* PBXContainerItemProxy */;
 		};
-		3D5A34EE00E59FCF5D51A4A3853A933B /* PBXTargetDependency */ = {
+		374C8097E4888C50DCCBAE392E604548 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsSDK;
 			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
-			targetProxy = EC3DD94342FCC3ACEE0855284DAE0223 /* PBXContainerItemProxy */;
+			targetProxy = 1057201119C6762975DC75F881568D5D /* PBXContainerItemProxy */;
 		};
-		51B48B557ABA85E5F1BE3ABC7D248F25 /* PBXTargetDependency */ = {
+		4D29CC778A65D59CDA57477FCE22C293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsContextSDK;
+			target = 68DA499335AE8E813BC3A369A5272A0B /* FlybitsContextSDK */;
+			targetProxy = 32D8F5E638530653522800947928D303 /* PBXContainerItemProxy */;
+		};
+		71E01A06ABB632B7CA41E51E8F7B5781 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsConciergeSDK;
 			target = 5ACEBCE85F4DCA89A7C7A2E8F84F8DED /* FlybitsConciergeSDK */;
-			targetProxy = F6B35758CA9A07C1D07650E697455069 /* PBXContainerItemProxy */;
+			targetProxy = 4848E844C90C10DF0F2D82111F4644FA /* PBXContainerItemProxy */;
 		};
-		60F4109AEA72C8452D7F37A19D3E5CA1 /* PBXTargetDependency */ = {
+		798591D1293833BB02882D9186DFE04F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsKernelSDK;
 			target = B177315585E424FE01CD2C830A804392 /* FlybitsKernelSDK */;
-			targetProxy = 17749A4F0C475D20D5652B2996F829A6 /* PBXContainerItemProxy */;
+			targetProxy = 0A1CBD8FD1AEBE5C5EE8269C7E2D9004 /* PBXContainerItemProxy */;
 		};
-		6674AE1088A3FE0E3CB2FCD67390A883 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsContextSDK;
-			target = 68DA499335AE8E813BC3A369A5272A0B /* FlybitsContextSDK */;
-			targetProxy = 5D1D09B38097B1FA45F067DB450896AE /* PBXContainerItemProxy */;
-		};
-		752D17819BEB54619ACC294DA2A515CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsContextSDK;
-			target = 68DA499335AE8E813BC3A369A5272A0B /* FlybitsContextSDK */;
-			targetProxy = 9E2F898A267AAB527F87EACB93B72318 /* PBXContainerItemProxy */;
-		};
-		97E0FA2437A1AEC0DBC44F05CB931313 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsPushSDK;
-			target = B817A4C462352297A30D09DB73F8CAB9 /* FlybitsPushSDK */;
-			targetProxy = 6E3426BF3DC293ADADAEA63AE6BBDBB3 /* PBXContainerItemProxy */;
-		};
-		B57ACD0BFD6A72B562A34AD1A2FAF682 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsPushSDK;
-			target = B817A4C462352297A30D09DB73F8CAB9 /* FlybitsPushSDK */;
-			targetProxy = 5122E00A41C9054F1CC29E6374D41575 /* PBXContainerItemProxy */;
-		};
-		B6406F9BAAF1B0738A05AE4BF4B4EF80 /* PBXTargetDependency */ = {
+		7CA9472FADE4557E669FE4AC38AA559A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsSDK;
 			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
-			targetProxy = 79376CA7F2A01E63B8E23E6B5E8D60E5 /* PBXContainerItemProxy */;
+			targetProxy = FDE427C498860BA76DFE60DC48CDF6EA /* PBXContainerItemProxy */;
 		};
-		BA6F43FA9668BB3BFB4B6CC7CCCE382A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsSmartRewardsSDK;
-			target = 77B15C0271475436D09BA954B0CDD86D /* FlybitsSmartRewardsSDK */;
-			targetProxy = 7C74CEA9020A1D8292E093416F50D5C2 /* PBXContainerItemProxy */;
-		};
-		D6D5C82A79A8614E043358AA53D43CF3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsSDK;
-			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
-			targetProxy = 398241925AB02F7952A685B7028F7147 /* PBXContainerItemProxy */;
-		};
-		DE15D1A06B4EB3475F35E0332F262869 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsConciergeSDK;
-			target = 5ACEBCE85F4DCA89A7C7A2E8F84F8DED /* FlybitsConciergeSDK */;
-			targetProxy = 411099CE63F124EE665C736B79AC90C2 /* PBXContainerItemProxy */;
-		};
-		EB768FFDCDA754BA221EC5ACE6F92BF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsSDK;
-			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
-			targetProxy = B8E3B8E4CBFAB5BDCBFEE4E796295507 /* PBXContainerItemProxy */;
-		};
-		F23AD42DCEA63C9E57345F88E9869B0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlybitsSDK;
-			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
-			targetProxy = 209A53821F56B248A4F4FC474858563D /* PBXContainerItemProxy */;
-		};
-		F666146AB8230024E295DD6046A86349 /* PBXTargetDependency */ = {
+		8EC3A323B4760ADDE63339290E286696 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlybitsContextLocationPluginSDK;
 			target = 586DAE8370B729469E3585888ABF42B5 /* FlybitsContextLocationPluginSDK */;
-			targetProxy = A1D888A5973C8A6315BD95C4200D4943 /* PBXContainerItemProxy */;
+			targetProxy = 0DFD93082613BA99E0E022560532A14C /* PBXContainerItemProxy */;
+		};
+		9759915F7D27F6A2337161C7EBF7E843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsContextSDK;
+			target = 68DA499335AE8E813BC3A369A5272A0B /* FlybitsContextSDK */;
+			targetProxy = C2BCE98D2F0F8962EDFF66D3064F1D2A /* PBXContainerItemProxy */;
+		};
+		A0292BBFB4F93D6F08690C9AF1826CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsSDK;
+			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
+			targetProxy = BAF8A7EFAA4681B00090F20E971A8D81 /* PBXContainerItemProxy */;
+		};
+		E4B381602A90F213A8ECB55DC2AF0149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsSDK;
+			target = DB6E2C47AA985715613545815BE4D579 /* FlybitsSDK */;
+			targetProxy = 3BBF445F13C14594A76E4801510CF497 /* PBXContainerItemProxy */;
+		};
+		E4B7FB284929FA931A35B1368FF358B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsSmartRewardsSDK;
+			target = 77B15C0271475436D09BA954B0CDD86D /* FlybitsSmartRewardsSDK */;
+			targetProxy = D4AFBA067392391268A6747162B7A0A2 /* PBXContainerItemProxy */;
+		};
+		E8FC510869D52774BC6F4B9ADAB1DA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsPushSDK;
+			target = B817A4C462352297A30D09DB73F8CAB9 /* FlybitsPushSDK */;
+			targetProxy = BB74ECC3B66C00FA9622ED96E6275B37 /* PBXContainerItemProxy */;
+		};
+		EB8E4B04814C6558BC0973D2CF87384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsKernelSDK;
+			target = B177315585E424FE01CD2C830A804392 /* FlybitsKernelSDK */;
+			targetProxy = 438485EEEB82B14E7BDD8E38EE8C66BB /* PBXContainerItemProxy */;
+		};
+		EBB731EE53205E031CA82290D3AD3A0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsConciergeSDK;
+			target = 5ACEBCE85F4DCA89A7C7A2E8F84F8DED /* FlybitsConciergeSDK */;
+			targetProxy = 4D19BC146F1D5A4C1BC5A1A8CF71D90D /* PBXContainerItemProxy */;
+		};
+		FF3A6AC21276CD71A2026F22472DD899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlybitsPushSDK;
+			target = B817A4C462352297A30D09DB73F8CAB9 /* FlybitsPushSDK */;
+			targetProxy = 12172E2FD82D0F4E01B1DAA953E501B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07A5CA6D772373C573B2078B146AC60A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D94AFA1FE9C98DB0DD351F77B7C26DE /* FlybitsContextLocationPluginSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0FD0F9713BC543575BBA7E08939D7C1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32624CCAB5E9A5410EB6EF126C2D9566 /* FlybitsSmartRewardsSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		168BB90C7FD517C7879EA4AFF1E9CF8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F8CC71700C34FC85EDA686D24A79C5 /* FlybitsContextSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2F6682FFFF3E54122E9FE87A543A9A1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F42BC7278853F207B9294572E6E25CB0 /* FlybitsKernelSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4875C55D8AF1536E77E20CB813B4899D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2C6243F738A69497952F092778F988 /* FlybitsContextLocationPluginSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		48CAA51DCEC701BA3DCBE4B1A5AF9D2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48312B1AF63445C819B0E23F379DD429 /* FlybitsKernelSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		686A31F1098DC13E8CB8ECFB0848F4D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6232ED978FACC27C1704B53301E1307F /* Pods-FlybitsTest.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -872,7 +750,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -885,9 +763,60 @@
 			};
 			name = Debug;
 		};
-		6DC707F5AA6684DC4DF2F28EE0B37A00 /* Release */ = {
+		2C6670092B394E86991EEE1E6363BFB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAE3E9C9B6F0BE65F029D3942FCC4A71 /* FlybitsSDK.release.xcconfig */;
+			baseConfigurationReference = D20C27EAC2CCB432018ECF084047424B /* FlybitsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD8052FE377B416E667F855F473C50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32624CCAB5E9A5410EB6EF126C2D9566 /* FlybitsSmartRewardsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392907A1342B7D19B6D5DBBE8E68E511 /* Mastercard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A1183939A50C35D0C51F0D794BF45D /* FlybitsConciergeSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mastercard;
+		};
+		4950E1BC527AC4D55AC2E7E5D410660F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE7CE418F7B36C52C47BA1CC6DD8A2A /* FlybitsContextSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -902,7 +831,249 @@
 			};
 			name = Release;
 		};
-		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+		49D3A90F255B8BF9BAAC00CE017E944B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D94AFA1FE9C98DB0DD351F77B7C26DE /* FlybitsContextLocationPluginSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6CC7BD3DF01512785291B9418F1667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F8CC71700C34FC85EDA686D24A79C5 /* FlybitsContextSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D99D4FC1B3C10C153D168EE389DB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A1183939A50C35D0C51F0D794BF45D /* FlybitsConciergeSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DD616D4C7D63FCFDC962C391699E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B397BF4D9B0E5AB7785E6CB88E16820A /* FlybitsConciergeSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560EFA365C68B5AC9A96AEA711C823D2 /* Mastercard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E096711EAD15C470088D03B05559A1DC /* Pods-FlybitsTest.mastercard.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mastercard;
+		};
+		6CEDBF3397E85908616F971A868C8D63 /* Mastercard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE3E9C9B6F0BE65F029D3942FCC4A71 /* FlybitsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mastercard;
+		};
+		6F382FEDA93A26463E6FC1F8351D82BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032A67912799152C90811D5813DA0F0C /* Pods-FlybitsTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FB46CD77E3ABC70D41A547C15C49A55 /* Mastercard */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_MASTERCARD=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Mastercard;
+		};
+		737212445DE27327B09B1695A766EB73 /* Mastercard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4408FA7E5D3CF06F5F88632C7CADAF2 /* FlybitsPushSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mastercard;
+		};
+		7EA001F8E7AC52E3B04E3937B6B46B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4408FA7E5D3CF06F5F88632C7CADAF2 /* FlybitsPushSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83FCF1DB0AF8B0F1E430BC02F189BE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09632835AA3AB0DE20E964DCFD20C5CE /* FlybitsSmartRewardsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -950,7 +1121,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -962,23 +1133,7 @@
 			};
 			name = Release;
 		};
-		A61627E0F412ABD2A397B09CAB6338E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D20C27EAC2CCB432018ECF084047424B /* FlybitsSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A737A914A3A070D683A55CA5263BB8E7 /* Debug */ = {
+		8A884B55370321BA5135AE9E19CC2527 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0084C945B2CAD957D622A5CA81EB2B29 /* FlybitsPushSDK.debug.xcconfig */;
 			buildSettings = {
@@ -994,9 +1149,9 @@
 			};
 			name = Debug;
 		};
-		ACB22B4733947CA7D47499CD512A003A /* Release */ = {
+		95424AC3241B74B8B02BF89D7D0E06FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AE7CE418F7B36C52C47BA1CC6DD8A2A /* FlybitsContextSDK.release.xcconfig */;
+			baseConfigurationReference = F42BC7278853F207B9294572E6E25CB0 /* FlybitsKernelSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1011,9 +1166,67 @@
 			};
 			name = Release;
 		};
-		C25E58ABBC880B62CBB8D974FEC732DD /* Release */ = {
+		A9A6A44870417A5E211BCBBEEDAEACB7 /* Mastercard */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1A1183939A50C35D0C51F0D794BF45D /* FlybitsConciergeSDK.release.xcconfig */;
+			baseConfigurationReference = F42BC7278853F207B9294572E6E25CB0 /* FlybitsKernelSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mastercard;
+		};
+		B7CC121DDC73FC152D6A288AB66CC0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33ECE43210163F7146DC9F3E5E09448 /* Pods-FlybitsTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F8D4873BE13A2EA358E757B76E264E /* Mastercard */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2C6243F738A69497952F092778F988 /* FlybitsContextLocationPluginSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mastercard;
+		};
+		C55F1BA9D98D1E20F8ED53433CE1C7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2C6243F738A69497952F092778F988 /* FlybitsContextLocationPluginSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1029,9 +1242,9 @@
 			};
 			name = Release;
 		};
-		C751DF35C8928BAF48391A2E37AB8770 /* Release */ = {
+		CE0ECE1805289751EA38AEE61E8EF77C /* Mastercard */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4408FA7E5D3CF06F5F88632C7CADAF2 /* FlybitsPushSDK.release.xcconfig */;
+			baseConfigurationReference = 4AE7CE418F7B36C52C47BA1CC6DD8A2A /* FlybitsContextSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1044,9 +1257,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Mastercard;
 		};
-		CC08C6D000485726CF060E94F1992990 /* Release */ = {
+		D05F33CD705B9C5AE43C48508A1A6C30 /* Mastercard */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09632835AA3AB0DE20E964DCFD20C5CE /* FlybitsSmartRewardsSDK.release.xcconfig */;
 			buildSettings = {
@@ -1062,38 +1275,15 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Mastercard;
 		};
-		D9F59C1E62606A25E02D2F4E81D99440 /* Debug */ = {
+		D96A6E85EA19A8CC32E7E9F8FDBDE8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E09C9566F3EA10A3CC31743F61F74C54 /* Pods-FlybitsTest.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F9F518E88E7FC7E5D7E87ACB6B29D8AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B397BF4D9B0E5AB7785E6CB88E16820A /* FlybitsConciergeSDK.debug.xcconfig */;
+			baseConfigurationReference = 48312B1AF63445C819B0E23F379DD429 /* FlybitsKernelSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1103,23 +1293,32 @@
 			};
 			name = Debug;
 		};
+		F00109E3893E091570E72100B356709B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE3E9C9B6F0BE65F029D3942FCC4A71 /* FlybitsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30C61709607D5A52FA9B3301BC1069ED /* Build configuration list for PBXAggregateTarget "FlybitsKernelSDK" */ = {
+		2C4B7F7121633443F62B4604AB15663B /* Build configuration list for PBXAggregateTarget "FlybitsPushSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48CAA51DCEC701BA3DCBE4B1A5AF9D2B /* Debug */,
-				2F6682FFFF3E54122E9FE87A543A9A1D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CE2213D8FB9B5B58E5BCBB131A3A07E /* Build configuration list for PBXNativeTarget "Pods-FlybitsTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9F59C1E62606A25E02D2F4E81D99440 /* Debug */,
-				686A31F1098DC13E8CB8ECFB0848F4D2 /* Release */,
+				8A884B55370321BA5135AE9E19CC2527 /* Debug */,
+				737212445DE27327B09B1695A766EB73 /* Mastercard */,
+				7EA001F8E7AC52E3B04E3937B6B46B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1127,62 +1326,79 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
-				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				6FB46CD77E3ABC70D41A547C15C49A55 /* Mastercard */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		620642F12D3E941A41ACEE55F18ABC56 /* Build configuration list for PBXAggregateTarget "FlybitsSmartRewardsSDK" */ = {
+		67E8E314C262A582DD474D53B9D4A6BF /* Build configuration list for PBXAggregateTarget "FlybitsContextLocationPluginSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FD0F9713BC543575BBA7E08939D7C1B /* Debug */,
-				CC08C6D000485726CF060E94F1992990 /* Release */,
+				49D3A90F255B8BF9BAAC00CE017E944B /* Debug */,
+				C3F8D4873BE13A2EA358E757B76E264E /* Mastercard */,
+				C55F1BA9D98D1E20F8ED53433CE1C7E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		909C68196D10E3F2728B52FEB342555D /* Build configuration list for PBXAggregateTarget "FlybitsConciergeSDK" */ = {
+		78A059FD60B3E24EBC227510ADA39DBC /* Build configuration list for PBXAggregateTarget "FlybitsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9F518E88E7FC7E5D7E87ACB6B29D8AC /* Debug */,
-				C25E58ABBC880B62CBB8D974FEC732DD /* Release */,
+				2C6670092B394E86991EEE1E6363BFB6 /* Debug */,
+				6CEDBF3397E85908616F971A868C8D63 /* Mastercard */,
+				F00109E3893E091570E72100B356709B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9798304A79FA48401002863CAAA89F14 /* Build configuration list for PBXAggregateTarget "FlybitsContextSDK" */ = {
+		930332857D061F748F6E22AA568DFFDD /* Build configuration list for PBXAggregateTarget "FlybitsContextSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				168BB90C7FD517C7879EA4AFF1E9CF8F /* Debug */,
-				ACB22B4733947CA7D47499CD512A003A /* Release */,
+				4C6CC7BD3DF01512785291B9418F1667 /* Debug */,
+				CE0ECE1805289751EA38AEE61E8EF77C /* Mastercard */,
+				4950E1BC527AC4D55AC2E7E5D410660F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F0B4998BC176675F97966500D196007 /* Build configuration list for PBXAggregateTarget "FlybitsSDK" */ = {
+		AB1EE5E558D9DC0A607B4EEE28106506 /* Build configuration list for PBXNativeTarget "Pods-FlybitsTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A61627E0F412ABD2A397B09CAB6338E7 /* Debug */,
-				6DC707F5AA6684DC4DF2F28EE0B37A00 /* Release */,
+				6F382FEDA93A26463E6FC1F8351D82BA /* Debug */,
+				560EFA365C68B5AC9A96AEA711C823D2 /* Mastercard */,
+				B7CC121DDC73FC152D6A288AB66CC0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF12A16E6E0ABB419DB240E0B787304E /* Build configuration list for PBXAggregateTarget "FlybitsContextLocationPluginSDK" */ = {
+		BD1008C578BB60DBEA2C4257BCE76A34 /* Build configuration list for PBXAggregateTarget "FlybitsConciergeSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07A5CA6D772373C573B2078B146AC60A /* Debug */,
-				4875C55D8AF1536E77E20CB813B4899D /* Release */,
+				55DD616D4C7D63FCFDC962C391699E63 /* Debug */,
+				392907A1342B7D19B6D5DBBE8E68E511 /* Mastercard */,
+				4D99D4FC1B3C10C153D168EE389DB1B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8FFADACDA9E5B2F590DEBB31A2D4500 /* Build configuration list for PBXAggregateTarget "FlybitsPushSDK" */ = {
+		CC7C316D55D4A5A11A90D0EC0D045196 /* Build configuration list for PBXAggregateTarget "FlybitsSmartRewardsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A737A914A3A070D683A55CA5263BB8E7 /* Debug */,
-				C751DF35C8928BAF48391A2E37AB8770 /* Release */,
+				2DD8052FE377B416E667F855F473C50F /* Debug */,
+				D05F33CD705B9C5AE43C48508A1A6C30 /* Mastercard */,
+				83FCF1DB0AF8B0F1E430BC02F189BE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5D65D5CF0B06A2541E3C9D64FDB1C80 /* Build configuration list for PBXAggregateTarget "FlybitsKernelSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96A6E85EA19A8CC32E7E9F8FDBDE8A1 /* Debug */,
+				A9A6A44870417A5E211BCBBEEDAEACB7 /* Mastercard */,
+				95424AC3241B74B8B02BF89D7D0E06FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

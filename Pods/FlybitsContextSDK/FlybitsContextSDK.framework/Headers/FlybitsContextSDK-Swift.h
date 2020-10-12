@@ -264,6 +264,9 @@ SWIFT_CLASS("_TtC17FlybitsContextSDK20CarrierContextPlugin")
 
 SWIFT_CLASS("_TtC17FlybitsContextSDK11ContextData")
 @interface ContextData : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull pluginId;
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull values;
+@property (nonatomic, readonly) NSInteger timestamp;
 - (nonnull instancetype)initWithPluginId:(NSString * _Nonnull)pluginId values:(NSDictionary<NSString *, id> * _Nonnull)values OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");

@@ -214,6 +214,15 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/FlybitsSDK/FlybitsSDK.framework"
   install_framework "${PODS_ROOT}/FlybitsSmartRewardsSDK/FlybitsSmartRewardsSDK.framework"
 fi
+if [[ "$CONFIGURATION" == "Mastercard" ]]; then
+  install_framework "${PODS_ROOT}/FlybitsConciergeSDK/FlybitsConciergeSDK.framework"
+  install_framework "${PODS_ROOT}/FlybitsContextLocationPluginSDK/FlybitsContextLocationPluginSDK.framework"
+  install_framework "${PODS_ROOT}/FlybitsContextSDK/FlybitsContextSDK.framework"
+  install_framework "${PODS_ROOT}/FlybitsKernelSDK/FlybitsKernelSDK.framework"
+  install_framework "${PODS_ROOT}/FlybitsPushSDK/FlybitsPushSDK.framework"
+  install_framework "${PODS_ROOT}/FlybitsSDK/FlybitsSDK.framework"
+  install_framework "${PODS_ROOT}/FlybitsSmartRewardsSDK/FlybitsSmartRewardsSDK.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

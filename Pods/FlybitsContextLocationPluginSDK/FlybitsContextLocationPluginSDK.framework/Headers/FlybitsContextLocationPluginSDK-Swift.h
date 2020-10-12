@@ -220,6 +220,14 @@ SWIFT_CLASS("_TtC31FlybitsContextLocationPluginSDK21LocationContextPlugin")
 @property (nonatomic, readonly, copy) NSArray<id <LocationContextPluginDelegate>> * _Nonnull delegates;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 /// Start to run the LocationInnerProtocol start function.
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     launchOptions: Launch app options. Important to know if the plugin is coming from <code>terminated</code> state.
+///   </li>
+/// </ul>
 ///
 /// returns:
 /// <code>true</code> if start happens successfully, <code>false</code> if the user didn’t provide permission to access the device’s location.

@@ -1,21 +1,21 @@
 PODS:
-  - FlybitsConciergeSDK (3.3.2):
-    - FlybitsContextSDK (= 3.3.2)
-    - FlybitsKernelSDK (= 3.3.2)
-    - FlybitsPushSDK (= 3.3.2)
-    - FlybitsSDK (= 3.3.2)
-  - FlybitsContextLocationPluginSDK (3.3.2):
-    - FlybitsContextSDK (= 3.3.2)
-    - FlybitsSDK (= 3.3.2)
-  - FlybitsContextSDK (3.3.2):
-    - FlybitsSDK (= 3.3.2)
-  - FlybitsKernelSDK (3.3.2):
-    - FlybitsSDK (= 3.3.2)
-  - FlybitsPushSDK (3.3.2):
-    - FlybitsSDK (= 3.3.2)
-  - FlybitsSDK (3.3.2)
-  - FlybitsSmartRewardsSDK (3.3.2):
-    - FlybitsConciergeSDK (= 3.3.2)
+  - FlybitsConciergeSDK (3.4.1):
+    - FlybitsContextSDK (= 3.4.1)
+    - FlybitsKernelSDK (= 3.4.1)
+    - FlybitsPushSDK (= 3.4.1)
+    - FlybitsSDK (= 3.4.1)
+  - FlybitsContextLocationPluginSDK (3.4.1):
+    - FlybitsContextSDK (= 3.4.1)
+    - FlybitsSDK (= 3.4.1)
+  - FlybitsContextSDK (3.4.1):
+    - FlybitsSDK (= 3.4.1)
+  - FlybitsKernelSDK (3.4.1):
+    - FlybitsSDK (= 3.4.1)
+  - FlybitsPushSDK (3.4.1):
+    - FlybitsSDK (= 3.4.1)
+  - FlybitsSDK (3.4.1)
+  - FlybitsSmartRewardsSDK (3.4.1):
+    - FlybitsConciergeSDK (= 3.4.1)
 
 DEPENDENCIES:
   - FlybitsConciergeSDK
@@ -33,13 +33,13 @@ SPEC REPOS:
     - FlybitsSmartRewardsSDK
 
 SPEC CHECKSUMS:
-  FlybitsConciergeSDK: fa3437b1b318edb4e33cf5aca6568ea2bb93551a
-  FlybitsContextLocationPluginSDK: 957ac3217e5ca3bbe69a721b8b6b90325855630f
-  FlybitsContextSDK: 9961943f9eae68666a4f8e05c3d436988c619f87
-  FlybitsKernelSDK: 1a5e26ea467bdf362b5533e6ae5eb2b40fa3b60c
-  FlybitsPushSDK: a1b081ed4b22e4276c58615c8bb9f8c45e630aa8
-  FlybitsSDK: 000042947991050d62c55e9c4b42e46fc1da3c26
-  FlybitsSmartRewardsSDK: 8897c677bf990b454dbc409f2578750ff6c5aa21
+  FlybitsConciergeSDK: 0d0df9f0b943b0bc17ee9831f1dfa44ebf05a43c
+  FlybitsContextLocationPluginSDK: d6d2dedead8652d5a66cf5908901ba94b47ada8b
+  FlybitsContextSDK: 5766f5c99edb70b6675620147d6d469123b5f226
+  FlybitsKernelSDK: 7c552ea78b18320133d354ee9c6273512fcb1ca2
+  FlybitsPushSDK: 039ef17500841ab2f1290d76da74bab10c2122d4
+  FlybitsSDK: f031abb658d77ea239acfd488666f1e43ab52469
+  FlybitsSmartRewardsSDK: 2f95db5bfe868926cf614058b8dc0934a036e8e8
 
 PODFILE CHECKSUM: a25c590a9da4724f6b441680dbd4637fb533b4bb
 

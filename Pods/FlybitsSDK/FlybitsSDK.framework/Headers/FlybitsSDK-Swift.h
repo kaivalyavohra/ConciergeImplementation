@@ -808,6 +808,25 @@ SWIFT_CLASS("_TtC10FlybitsSDK6JwtIDP")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+
+/// The <code>JwtLoginIDP</code> class is responsible for creating an JWT based signed login idnentifier provider (IDP).
+/// Using this IDP for customer that need JWT based signed Login indentifier.
+/// By using this IDP, customer need to provide a signed JWT.
+SWIFT_CLASS("_TtC10FlybitsSDK11JwtLoginIDP")
+@interface JwtLoginIDP : NSObject <IDP>
+@property (nonatomic, readonly, copy) NSString * _Nonnull provider;
+@property (nonatomic, readonly, copy) NSString * _Nullable projectID;
+@property (nonatomic, readonly, copy) NSString * _Nonnull authenticationEndPoint;
+/// Request header need to use jwt signed token
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, NSString *> * _Nonnull requestHeaders;
+@property (nonatomic, readonly) enum RequestMethod requestMethod;
+@property (nonatomic, readonly, copy) NSString * _Nonnull requestBody;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
 /// Defines errors that can occur during localization changes
 typedef SWIFT_ENUM(NSInteger, LocalizationError, closed) {
 /// Unknown language code
